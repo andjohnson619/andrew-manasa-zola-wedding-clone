@@ -1,5 +1,11 @@
 # Andrew and Manasa wedding site (static clone)
 
+**Project location:** `Cursor AI\andrew-manasa-zola-wedding-clone` (this repo). It was moved here from the Cary `AI Outputs` folder.
+
+If a **duplicate empty folder** still appears under `Cary - Documents\...\Andrew\AI Outputs\andrew-manasa-zola-wedding-clone` (Windows can keep a lock until Explorer or an editor releases it), close those apps and run `scripts\delete-old-cary-copy.cmd`, or delete that folder manually in File Explorer.
+
+---
+
 This folder is a **static remake** of the Zola wedding site theme **Jessenia (Pale Sage)** for [andrewandmanasa](https://www.zola.com/wedding/andrewandmanasa), built from:
 
 - Your saved page export: `reference/saved-zola-page.html` (includes full `__NEXT_DATA__` from Zola)
@@ -25,14 +31,15 @@ Then open the URL shown in the terminal (e.g. `http://localhost:3000`).
 
 ## Push to GitHub
 
+This directory is already a git repository. Create an empty repo on GitHub, then:
+
 ```bash
-cd "path/to/andrew-manasa-zola-wedding-clone"
-git init
-git add .
-git commit -m "Initial static clone of Zola wedding site"
+cd "C:\Users\Andrew S Johnson\OneDrive - McKinsey & Company\Cursor AI\andrew-manasa-zola-wedding-clone"
+git remote add origin <your-repo-url>
+git push -u origin master
 ```
 
-Create an empty repo on GitHub, add `origin`, and push. Enable GitHub Pages from the `main` branch if you want hosting.
+Rename the branch to `main` on GitHub if you prefer. Enable GitHub Pages from that branch if you want hosting.
 
 ## Note on the saved HTML file
 
