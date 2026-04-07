@@ -36,4 +36,4 @@ Create an empty repo on GitHub, add `origin`, and push. Enable GitHub Pages from
 
 ## Note on the saved HTML file
 
-`reference/saved-zola-page.html` may contain embedded account data from Zola. Treat it as **private** if you share the repo; the runnable site in the repo root uses only `data/site.json`.
+`reference/saved-zola-page.html` is your full browser save and can include embedded Zola account fields (e.g. email in `__NEXT_DATA__`). For a **public** GitHub repo, remove that file from git history or replace it with a redacted copy. The live static site only reads `data/site.json`.
