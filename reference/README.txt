@@ -1,0 +1,1 @@
+saved-zola-page.html is a browser-saved copy of the live Zola wedding page (includes scripts and may include private embedded state). Kept for reference while building the static clone in the parent folder.
