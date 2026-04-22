@@ -1,0 +1,19 @@
+{
+  "name": "Manasa & Andrew Wedding",
+  "short_name": "D&J Wedding",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#56643f",
+  "background_color": "#56643f",
+  "display": "standalone"
+}
