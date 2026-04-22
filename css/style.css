@@ -436,12 +436,11 @@ h1, h2, h3, h4 {
 
 @media (max-width: 767px) {
   .mobile-nav-toggle { display: block; }
-  .site-header { display: flex; justify-content: space-between; align-items: center; }
-  .nav-bar { top: 50px; }
-  .nav-bar ul { flex-direction: column; }
-  .nav-bar.collapsed ul { display: none; }
-  .nav-bar ul { gap: 4px; }
-  .couple-name-nav { font-size: 24px; }
+  .site-header { display: flex; justify-content: space-between; align-items: center; padding: 10px 16px 0; }
+  .nav-bar { top: 42px; }
+  .nav-bar ul { flex-direction: column; display: none; gap: 4px; }
+  .nav-bar.open ul { display: flex; }
+  .couple-name-nav { font-size: 22px; }
 }
 
 /* ─── DIVIDER ─── */
