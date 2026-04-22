@@ -40,7 +40,7 @@ h1, h2, h3, h4 {
   position: sticky;
   top: 0;
   z-index: 500;
-  padding: 20px 20px 0;
+  padding: 16px 20px 0;
 }
 
 .site-header .couple-name-nav {
@@ -55,9 +55,9 @@ h1, h2, h3, h4 {
 .nav-bar {
   background-color: var(--bg);
   position: sticky;
-  top: 60px;
+  top: 55px;
   z-index: 400;
-  padding: 20px 0 12px;
+  padding: 0 0 12px;
 }
 
 .nav-bar ul {
@@ -104,8 +104,8 @@ h1, h2, h3, h4 {
   justify-content: center;
   position: relative;
   overflow: hidden;
-  aspect-ratio: 12 / 7;
-  min-height: 300px;
+  aspect-ratio: 16 / 7;
+  min-height: 280px;
 }
 
 @media (max-width: 767px) {
@@ -189,14 +189,14 @@ h1, h2, h3, h4 {
   font-family: var(--font-body);
   font-size: 16px;
   display: block;
-  margin: 32px 0;
+  margin: 20px 0;
 }
 
 @media (max-width: 767px) {
-  .ampersand { margin: 20px 0; }
+  .ampersand { margin: 14px 0; }
 }
 
-.date-location { margin-top: 40px; }
+.date-location { margin-top: 24px; }
 
 .event-date {
   font-family: var(--font-header);
