@@ -39,7 +39,7 @@ h1, h2, h3, h4 {
   text-align: center;
   position: sticky;
   top: 0;
-  z-index: 400;
+  z-index: 500;
   padding: 20px 20px 0;
 }
 
@@ -55,7 +55,7 @@ h1, h2, h3, h4 {
 .nav-bar {
   background-color: var(--bg);
   position: sticky;
-  top: 0;
+  top: 60px;
   z-index: 400;
   padding: 20px 0 12px;
 }
@@ -377,6 +377,7 @@ h1, h2, h3, h4 {
 
 .faq-item h2 {
   font-size: 25px;
+  font-weight: 700;
   margin-bottom: 24px;
 }
 
@@ -436,6 +437,7 @@ h1, h2, h3, h4 {
 @media (max-width: 767px) {
   .mobile-nav-toggle { display: block; }
   .site-header { display: flex; justify-content: space-between; align-items: center; }
+  .nav-bar { top: 50px; }
   .nav-bar ul { flex-direction: column; }
   .nav-bar.collapsed ul { display: none; }
   .nav-bar ul { gap: 4px; }
