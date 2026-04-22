@@ -334,8 +334,8 @@ h1, h2, h3, h4 {
 
 .travel-card address {
   font-style: normal;
-  margin-bottom: 24px;
-  display: inline;
+  margin-bottom: 32px;
+  display: block;
 }
 
 .travel-card .travel-note {
