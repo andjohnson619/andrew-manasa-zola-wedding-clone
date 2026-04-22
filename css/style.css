@@ -154,7 +154,7 @@ h1, h2, h3, h4 {
 .content-wrap {
   max-width: 1020px;
   margin: 0 auto;
-  padding: 65px 32px 0;
+  padding: 30px 32px 0;
   position: relative;
   z-index: 150;
 }
@@ -168,12 +168,12 @@ h1, h2, h3, h4 {
 /* ─── HOME NAMES + DATE ─── */
 
 .names-section {
-  padding: 90px 32px 120px;
+  padding: 20px 32px 40px;
   text-align: center;
 }
 
 @media (max-width: 767px) {
-  .names-section { padding: 40px 16px; }
+  .names-section { padding: 16px 16px 24px; }
 }
 
 .couple-name {
